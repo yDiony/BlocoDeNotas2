@@ -12,6 +12,9 @@ addNote.addEventListener('click', (evt) => {
   modal.style.display = 'block';
   notes.style.display = 'none';
   addNote.style.display = 'none';
+  document.querySelector("#input-id").value=""
+  document.querySelector("#input-title").value=""
+  document.querySelector("#input-content").value=""
 
 btnCloseNote.addEventListener('click', (evt) => {
   listNotes();
